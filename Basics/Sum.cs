@@ -16,7 +16,8 @@ namespace Basics
             int a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter the num2: ");
             int b = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Sum = {0}", a + b);
+            int Sum = a + b;
+            Console.WriteLine(Sum);
             Console.ReadLine();
 
 
