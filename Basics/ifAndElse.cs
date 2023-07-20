@@ -12,16 +12,16 @@ namespace Basics
         {
             Console.WriteLine("Enter the string: ");
             string sentence = Console.ReadLine();
-            Console.WriteLine("Choose your color: y for yellow, g for Green, o for Other");
+            Console.WriteLine("Choose your color: y for yellow, m for magenta, o for Other");
             char color = Convert.ToChar(Console.ReadLine());
             if (color == 'y')
             {
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine(sentence);
             }
-            else if (color == 'g')
+            else if (color == 'm')
             {
-                Console.ForegroundColor = ConsoleColor.Green;
+                Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine(sentence);
             }
             else

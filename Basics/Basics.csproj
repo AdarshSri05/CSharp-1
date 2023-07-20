@@ -50,6 +50,7 @@
     <Compile Include="ifAndElse.cs" />
     <Compile Include="Initializing_list.cs" />
     <Compile Include="insertion_list.cs" />
+    <Compile Include="nestedIfElse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="remove_list.cs" />
     <Compile Include="Sum.cs" />
